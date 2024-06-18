@@ -11,8 +11,7 @@ body {
   }
   
   header {
-    background-color: #ffbb00; 
-    color: #333; 
+    background-color:#ffbb00; 
     text-align: center;
     padding: 30px 0;
   }
@@ -31,10 +30,15 @@ body {
     margin-right: 20px;
   }
   
-  nav ul li a {
+  header nav ul li a {
     text-decoration: none;
-    color: #333; 
+    color: white; 
+    transition: background-color 0.3s ease;
+    
   }
+  header nav ul li a:hover {
+    background-color:#535252;
+    border-radius: 4px;}
   
   section {
     background-color: #535252; 
@@ -44,20 +48,6 @@ body {
   
   section h2 {
     margin-top: 0;
-  }
-  
-  .btn-voltar {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffbb00; 
-    color: #333; 
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-  }
-  
-  .btn-voltar:hover {
-    background-color: #ffbb00;
   }
   
   .content {
@@ -87,6 +77,10 @@ body {
     vertical-align: middle ;
     margin-right: 5px
   }
+  footer h1{ color: black;}
+  footer nav ul li a {
+    text-decoration: none;
+  color:black;}
   h3 {
     margin-left: 30px ;
   }
