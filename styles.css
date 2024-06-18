@@ -94,46 +94,7 @@ body {
   h1 {
     color: white;
   }
- /* CSS responsivo */
+ 
 
-  @media (max-width: 1000px) {
-    .container {
-        padding: 10px;
-        width: 90%;
-    }
 
-    .section {
-        width: 100%;
-        margin: 0 auto;
-    }
 
-    .skills, .languages, .qualifications {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-
-    .container {
-        padding: 5px;
-        width: 100%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .skills, .languages, .qualifications {
-        padding-left: 10px;
-    }
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
