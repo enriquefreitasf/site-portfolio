@@ -97,11 +97,11 @@ body {
  
 @media only screen and (max-width: 600px) {
   .container {
-      padding: 10px;
+      padding: 10px 0;
   }
 
   header {
-      padding: 20px 0;
+      padding: 10px 0;
   }
 
   nav ul {
@@ -126,8 +126,8 @@ body {
   }
 
   footer img {
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
   }
 
   h3, h4, h2, h1 {
