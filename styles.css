@@ -98,7 +98,6 @@ body {
 @media only screen and (max-width: 600px) {
   .container {
       padding: 10px 0;
-      width: 550px;
   }
 
   header {
@@ -118,6 +117,7 @@ body {
       margin-inline: 0;
       margin-bottom: 10px;
       padding: 20px;
+      width: 550px;
   }
 
   img {
