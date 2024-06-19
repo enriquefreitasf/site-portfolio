@@ -62,7 +62,6 @@ body {
     color: white;
     background-color: gray;
     width: 100%;
-    padding: 20px 0;
   }
   
   img {
@@ -117,7 +116,7 @@ body {
   .content {
       margin-inline: 0;
       margin-bottom: 10px;
-      padding: 10px;
+      padding: 20px;
   }
 
   img {
@@ -136,7 +135,7 @@ body {
   }
 
   section {
-      padding: 10px 0;
+      padding: 20px 0;
   }
 }
 
