@@ -128,6 +128,7 @@ nav ul {
 nav ul li {
     display: block;
     margin: 5px 0;
+    position: relative;
 }
 
 .content {
