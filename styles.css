@@ -118,8 +118,7 @@ body {
 }
 
 header {
-    padding: 10px 10px;
-    height: 40px;
+    padding: 10px 0px;
 }
 
 nav ul {
@@ -129,7 +128,6 @@ nav ul {
 nav ul li {
     display: block;
     margin: 5px 0;
-    position: relative;
 }
 
 .content {
@@ -155,6 +153,5 @@ h3, h4, h2, h1 {
 }
 
 section {
-    padding: 10px 0;
-    
-}
+    padding:10px 0;
+  }
