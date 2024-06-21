@@ -34,7 +34,7 @@ body {
     margin-right: 20px;
 
   }
-  header a {
+  header nav ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0); 
     transition: background-color 0.5s ease;
@@ -44,7 +44,7 @@ body {
     padding: 10px 10px;
     background-color: #ffffff;
   }
-  header a:hover {
+  header nav ul li a:hover {
     background-color:#535252;
     border-radius: 20px;
     padding: 10px;
@@ -155,3 +155,4 @@ h3, h4, h2, h1 {
 section {
     padding:10px 0;
   }
+}
